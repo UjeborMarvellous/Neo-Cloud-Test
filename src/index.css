@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* background-image: url(./Components/Images/02.jpg); */
+  padding: 0;
+
+}
+.topNav {
+  background: #1f272b;
+}
+
+.Font {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Passion One', cursive;
+}
+
+.Service {
+  background-image: url(./Components/Images/07.jpg);
+  position: sticky;
+}
