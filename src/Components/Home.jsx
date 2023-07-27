@@ -1,12 +1,17 @@
 import React from "react";
 import Img01 from "./Images/01.jpg";
 import Img02 from "./Images/Main.jpg";
+import Img10 from "./Images/13.jpg";
 import { Link } from "react-router-dom";
 import AutoPlayMethod from "./Carousel";
 import OurService from "./OurService";
 import Accordion from "./Accordion";
 import Img09 from './Images/07.jpg'
 import AutoPlayMethods from "./CarouselTwo";
+import Counting from "./Counting";
+import Thumb from './Images/14.jpg'
+import Play from './Images/Play.png'
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -38,7 +43,7 @@ function Home() {
             </div>
             <div className="z-30 relative">
                 <img src={Img09} alt="" className=" absolute top-0 h-[110%] w-full object-cover" />
-                <div className="grid lg:grid-cols-2 md:grid-cols-1  relative pt-24">
+                <div className="grid lg:grid-cols-2 md:grid-cols-1 relative pt-24">
                     <div className="my-auto lg:mx-20 md:mx-10 sm:mx-3">
                         <div className="Ceo bg-white/10 py-16 px-10">
                             <p className="text-white font-bold pb-5 Font tracking-widest text-4xl">CEO'S DESK</p>
@@ -53,6 +58,24 @@ function Home() {
                     <p className="lg:text-2xl md:text-xl sm:text-lg font-extrabold text-white border-b border-white/20 pb-6">SOME OF OUR PROJECTS AND RATINGS</p>
                 </div>
                 <AutoPlayMethods />
+            </div>
+            <div className="z-40 relative">
+                <img src={Img10} alt="" className=" absolute top-0 lg:h-[110%] md:h-screen sm:h-[100%] w-full lg:object-contain sm:object-cover" />
+                <div className="relative pt-[1%] mx-[6%]">
+                    <h1 className="lg:text-4xl md:text-xl sm:text-lg font-extrabold text-white pt-32">A Few Facts About idahvis</h1>
+                    <div className="lg:grid lg:grid-cols-2 gap-20 pt-[8%] ">
+                        <Counting />
+                        <div className="video pb-10">
+                            <Link to="https://www.youtube.com/watch?v=HndV87XpkWg" className="rounded-2xl">
+                                <img src={Thumb} alt="" className="rounded-2xl h-[80%] w-full relative object-cover" />
+                                <img src={Play} alt="" className="absolute lg:-mt-[17.7%] lg:mx-[21%] sm:-mt-[45%] sm:mx-[43%]"/>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="z-40 relative">
+                <Footer />
             </div>
         </div>
     );

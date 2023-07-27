@@ -27,10 +27,10 @@ function Navbar() {
                 <div className="flex justify-between ">
                     <div className={color ? "text-black navLinks uppercase ml-auto py-5" : "navLinks uppercase ml-auto text-black py-5"}>
                         <div className="test">
-                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono text-lg text-black mx-6 focus-within:text-yellow-500' : 'font-black hover:text-yellow-500 hover:text-xl duration-200 ease-in-out font-mono text-lg text-white mx-6'}>Home</Link>
-                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono text-lg text-black mx-6' : 'font-black font-mono text-lg text-white hover:text-yellow-500 hover:text-xl duration-200 ease-in-out mx-6'}>About</Link>
-                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono text-lg text-black mx-6' : 'font-black font-mono text-lg text-white hover:text-yellow-500 hover:text-xl duration-200 ease-in-out mx-6'}>Jobs</Link>
-                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono text-lg text-black mx-6' : 'font-black font-mono text-lg text-white hover:text-yellow-500 hover:text-xl duration-200 ease-in-out mx-6'}>Contact</Link>
+                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono lg:text-lg md:text-lg sm:text-sm text-black lg:mx-6 md:mx-6 sm:mx-4 focus-within:text-yellow-500' : 'font-black hover:text-yellow-500 hover:text-xl duration-200 ease-in-out font-mono lg:text-lg md:text-lg sm:text-sm text-white lg:mx-6 md:mx-6 sm:mx-5'}>Home</Link>
+                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono lg:text-lg md:text-lg sm:text-sm text-black lg:mx-6 md:mx-6 sm:mx-4' : 'font-black font-mono lg:text-lg md:text-lg sm:text-sm text-white hover:text-yellow-500 hover:text-xl duration-200 ease-in-out lg:mx-6 md:mx-6 sm:mx-5'}>About</Link>
+                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono lg:text-lg md:text-lg sm:text-sm text-black lg:mx-6 md:mx-6 sm:mx-4' : 'font-black font-mono lg:text-lg md:text-lg sm:text-sm text-white hover:text-yellow-500 hover:text-xl duration-200 ease-in-out lg:mx-6 md:mx-6 sm:mx-5'}>Jobs</Link>
+                            <Link to="/" className={color ? 'font-black hover:text-xl duration-200 ease-in-out font-mono lg:text-lg md:text-lg sm:text-sm text-black lg:mx-6 md:mx-6 sm:mx-5' : 'font-black font-mono lg:text-lg md:text-lg sm:text-sm text-white hover:text-yellow-500 hover:text-xl duration-200 ease-in-out lg:mx-6 md:mx-6 sm:mx-5'}>Contact</Link>
                         </div>
                     </div>
                 </div>
